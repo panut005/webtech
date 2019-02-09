@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab3-RolexWeb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="style.css">
+
+</head>
+<body class="body">
+    <section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal" align="center">
+                        <h1 class="head" align="center">Welcome!!!</h1>
+                        <label class="label" for="input-text">Search Name: </label>
+                            <input  class="input is-rounded" type="text" id="input-text"placeholder="Enter some text">
+                                <button id="submit-btn" class="btn btn-outline-secondary">Search</button>
+                    </div>
+                    
+                        <div class="control" align="center">
+                            <br>
+                            <button id="medium-btn" class="btn btn-outline-secondary">
+                                MEDIUM
+                            </button>
+
+                            <button id="large-btn" class="btn btn-outline-secondary">
+                                LARGE
+                            </button>
+
+                            <button id="oystersteel-btn" class="btn btn-outline-secondary">
+                                OYSTERSTEEL
+                            </button>
+
+                            <button id="gold-btn" class="btn btn-outline-secondary">
+                                GOLD
+                            </button>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-outline-secondary" id ="advance-btn">Advance Search</button>
+                            <hr>
+                            <div class="form-inline" id="advance-search" align="center">
+                                    <label class="label" for="advance-search1" style="text-align: left;">Name: &nbsp;</label>
+                                    <input type="text" name="form-control" id="name-adsearch" placeholder="name">
+                                    <label class="label" for="advance-search2" style="text-align: left;">&nbsp; Size: &nbsp;</label>
+                                    <input type="text" name="form-control" id="size-adsearch" placeholder="size">
+                                    <label class="label" for="advance-search3" style="text-align: left;">&nbsp; Radius: &nbsp;</label>
+                                    <input type="text" name="form-control" id="radius-adsearch" placeholder="max radius">
+                                    <label class="label" for="advance-search4" style="text-align: left;">&nbsp; Material: &nbsp;</label>
+                                    <input type="text" name="form-control" id="material-adsearch" placeholder="material">
+                                    <label class="label" for="advance-search5" style="text-align: left;">&nbsp; Max Price: &nbsp;</label>
+                                    <input type="text" name="form-control" id="price-adsearch" placeholder=" maximum price">
+                                    <button type="button" class="btn btn-outline-secondary" id ="advance-btn-search" style="margin-left: 1rem; margin-top: 1% ">Search</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level-item">
+                <div class="content box is-large">
+
+        
+                </div>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Radius(MM.)</th>
+                <th>Material</th>
+                <th>Price</th>
+              </tr>
+              <h3 id="warning" align="center"></h3>
+            </thead>
+            <tbody id="table">
+               </tbody>
+        </table>
+    </div>
+    </section>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>

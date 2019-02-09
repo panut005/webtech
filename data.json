@@ -1,0 +1,65 @@
+[
+    {
+        "name": "DATE JUST 36",
+        "size": "MEDIUM",
+        "radius": 36,
+        "material": "OYSTERSTEEL AND GOLD",
+        "price": 447700
+    },
+    {
+        "name": "OYSTER PERPETUAL 36",
+        "size": "MEDIUM",
+        "radius": 36,
+        "material": "OYSTERSTEEL",
+        "price": 190300
+    },
+    {
+        "name": "DAY-DATE 40",
+        "size": "LARGE",
+        "radius": 40,
+        "material": "GOLD",
+        "price": 1238400
+    },
+    {
+        "name": "SEA-DWELLER",
+        "size": "LARGE",
+        "radius": 43,
+        "material": "OYSTERSTEEL",
+        "price": 402900
+    },
+    {
+        "name": "DAY-DATE 36",
+        "size": "MEDIUM",
+        "radius": 36,
+        "material": "GOLD",
+        "price": 787000
+    },
+    {
+        "name": "YACHT-MASTER 37",
+        "size": "MEDIUM",
+        "radius": 37,
+        "material": "GOLD",
+        "price": 1417400
+    },
+    {
+        "name": "AIR-KING",
+        "size": "LARGE",
+        "radius": 40,
+        "material": "OYSTERSTEEL",
+        "price": 220100
+    },
+    {
+        "name": "GMT-MASTER",
+        "size": "LARGE",
+        "radius": 40,
+        "material": "OYSTERSTEEL",
+        "price": 328300
+    },
+    {
+        "name": "YACHT-MASTER II",
+        "size": "LARGE",
+        "radius": 44,
+        "material": "OYSTERSTEEL",
+        "price": 664000
+    }
+]
